@@ -1,8 +1,9 @@
 @media screen and (min-width: 1023px) {
     .banner-h2 {
-        font-size: 75px;
+        font-size: 85px;
     }
     .banner-p {
-        font-size: 25px;
+        width: 600px;
+        font-size: 20px;
     }
 }
