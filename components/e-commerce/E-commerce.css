@@ -1,0 +1,140 @@
+.e-commerce {
+    height: 100vh;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.e-commerce>.e-commerce__legends {
+    margin-top: 100px;
+    text-align: center;
+}
+.e-commerce__legends>.legends-p {
+    text-transform: uppercase;
+    color: #1d8a01;
+    margin: 10px 0;
+}
+.e-commerce__legends>.legends-h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.legends-h2>span {
+    color: #1d8a01;
+}
+.legends-p__two{
+    color: #868585;
+}
+.shop-article {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 430px;
+    border-radius: 10px;
+    
+    border: 1px solid #fff;
+}
+.shop-article > .shop_img {
+    margin-bottom: 10px;
+}
+.shop-article > .shop_img img {
+    width: 100%;
+    max-width: auto;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.shop-legends {
+    padding: 10px;
+    
+}
+.shop-legends > .assessment{
+    margin-bottom: 5px;
+}
+.shop-legends > .description__product {
+    margin-bottom: 20px;
+}
+
+.shop-legends > .value {
+    text-decoration-line: line-through;
+    color: hsl(0 0% 60%);
+    margin-bottom: 5px;
+}
+
+.shop-legends > .value-promo {
+    color: #1d8a01;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btns-shop {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn-whatssap {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #1d8a01;
+    color: #000;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.btn-mercado__livre {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #FFE600;
+    color: #000;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.e-commerce__shop {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    max-width: 432px;
+}
+
+@media screen and (min-width: 650px) {
+    .e-commerce__shop {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+}
+
+@media screen and (min-width: 1023px) {
+    .e-commerce__shop {
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 450px;
+    gap: 20px;
+
+}
+}
