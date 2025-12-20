@@ -8,7 +8,7 @@
     padding: 15px;
 }
 .e-commerce>.e-commerce__legends {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
 .e-commerce__legends>.legends-p {
@@ -32,9 +32,8 @@
     width: 100%;
     max-width: 430px;
     border-radius: 10px;
-    
     border: 1px solid rgba(177, 175, 175, 0.1);
-    box-shadow: 1px 1px 10px solid  rgba(177, 175, 175, 0.1);
+    box-shadow: 4px 4px 20px solid #fff;
 }
 .shop-article > .shop_img {
     margin-bottom: 10px;
@@ -114,7 +113,7 @@
     display: grid;
     grid-template-columns: auto;
     width: 100%;
-    max-width: 432px;
+    max-width: 400px;
     
 }
 
@@ -133,7 +132,7 @@
 @media screen and (min-width: 1023px) {
     .e-commerce__shop {
     display: grid;
-    grid-template-columns: 430px 430px 430px;
+    grid-template-columns: 380px 380px 380px;
     align-items: center;
     justify-content: center;
     width: 100%;
