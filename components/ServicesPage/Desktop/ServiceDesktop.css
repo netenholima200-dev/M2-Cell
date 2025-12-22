@@ -1,5 +1,37 @@
 @media screen and (min-width: 1023px) {
-.h2-page {
-    font-size: 55px;
+    .h2-page {
+        font-size: 55px;
+    }
+
+     .services-div {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 20px;
+
+    }
 }
+
+@media screen and (min-width: 783px) {
+
+    .services-div {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+}
+
+
+@media screen and (min-width: 1411px) {
+
+    .services-div {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 120px 50px 120px;
+    }
 }

@@ -2,3 +2,21 @@
 * text=auto
 
 
+.serveces-item:hover {
+    border: 1px solid #1d8a01;
+    box-shadow:1px 1px 10px #1d8a01;
+
+}
+
+.serveces-item {
+    width: 100%;
+    border: 1px solid rgba(177, 175, 175, 0.4);
+    border-radius: 15px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid hsl(0 0% 18%);
+    flex-grow: 1;
+}
