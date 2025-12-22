@@ -1,14 +1,18 @@
 @media screen and (min-width: 1023px) {
     .container {
-        max-width: 100%;
+        width: 100%;
         margin: 0 auto;
         border-bottom: 1px solid #fff;
+        background-color: black;
+        position: fixed;
+        z-index: 99;
     }
 
     .header-one {
-        max-width: 80%;
+        max-width: 75%;
         margin: 0 auto;
         height: 80px;
+        position: relative;
     }
 
     #mobile,

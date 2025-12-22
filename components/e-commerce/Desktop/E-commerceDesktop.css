@@ -1,0 +1,27 @@
+@media screen and (min-width: 1023px) {
+    .e-commerce__shop {
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 450px;
+    gap: 20px;
+
+}
+
+    .shop-article {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 430px;
+    border-radius: 10px;
+    border: 1px solid rgba(177, 175, 175, 0.1);
+    box-shadow: 4px 4px 20px solid #fff;
+}
+
+.e-commerce__legends>.legends-h2{
+
+    font-size: 55px;
+
+}
+}
